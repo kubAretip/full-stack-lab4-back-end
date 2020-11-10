@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: jpitera
+    password: jpitera
+    url: jdbc:mysql://Full2020-86389:3306/spring_app_db?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&serverTimezone=UTC&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: update
